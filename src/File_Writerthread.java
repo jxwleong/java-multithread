@@ -1,4 +1,6 @@
-/* Class File_Writerthread.java */
+/* Class File_Writerthread.java
+* Make sure the name don't have spaces
+*/
 import java.io.*;
 import java.util.*;
 import java.lang.*;

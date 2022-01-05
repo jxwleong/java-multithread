@@ -17,6 +17,8 @@ public class Main
             File_Readerthread frt = new File_Readerthread(filename);
             File_Writerthread fwt = new File_Writerthread(filename, "DATA");
             frt.start();
+            //frt.notify();
+            //fwt.wait();
             fwt.start();
         }catch(Exception e){System.out.println(e.getMessage());}
     }
